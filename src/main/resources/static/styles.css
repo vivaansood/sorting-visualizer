@@ -1,0 +1,76 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.input-section {
+    margin: 15px 0;
+}
+
+.spaced-button {
+    margin-left: 20px;
+}
+
+.controls button {
+    margin: 8px;
+    padding: 10px 25px;
+    background-color: #6A5ACD;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover {
+    background-color: #483D8B;
+}
+
+.visual-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    margin: 20px auto;
+    width: 90%;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.bar {
+    background-color: teal;
+    margin: 0 4px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 30px;
+    transition: height 0.3s ease;
+}
+
+.bar.red {
+    background-color: red;
+}
+
+.log-area {
+    height: 150px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.big-o {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+#sortedMessage {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
